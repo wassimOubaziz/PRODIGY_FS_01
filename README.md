@@ -16,12 +16,15 @@ A modern, secure, and user-friendly authentication system built with Next.js, Ta
 ## 📸 Screenshots
 
 ### Login Page
+
 ![Login Page](images/login-page.png)
 
 ### Registration Page
+
 ![Registration Page](images/register-page.png)
 
 ### Dashboard
+
 ![Dashboard](images/dashboard.png)
 
 ## 🛠️ Technologies Used
@@ -36,6 +39,7 @@ A modern, secure, and user-friendly authentication system built with Next.js, Ta
 ## 📋 Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 - Node.js (v14 or later)
 - npm or yarn
 - MongoDB
@@ -43,31 +47,39 @@ Before you begin, ensure you have the following installed:
 ## 🚀 Getting Started
 
 1. Clone the repository:
+
 ```
 git clone https://github.com/wassimOubaziz/PRODIGY_FS_01.git
 ```
 
 2. Install dependencies:
+
 ```
 npm install
 ```
+
 or
+
 ```
 yarn install
 ```
 
 3. Set up environment variables:
-Create a `.env.local` file in the root directory and add the following:
+   Create a `.env.local` file in the root directory and add the following:
+
 ```
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
 
 4. Run the development server:
+
 ```
 npm run dev
 ```
+
 or
+
 ```
 yarn dev
 ```
@@ -75,6 +87,7 @@ yarn dev
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 ## 📁 Project Structure
+
 ```
 src/
 ├── app/
@@ -109,6 +122,8 @@ src/
 ## 🔒 Authentication Flow
 
 1. **Registration**: Users can create an account by providing a username, email, and password. Passwords are hashed using bcrypt before being stored in the database.
+
+![mongodb](images/mongodb.png)
 
 2. **Login**: Users can log in using their email and password. Upon successful authentication, a JWT token is generated and stored in the browser's local storage.
 
@@ -145,7 +160,8 @@ This project is [MIT](https://github.com/wassimOubaziz/PRODIGY_FS_01?tab=MIT-1-o
 
 ## 👤 Author
 
-Your Name
+Wassim Oubaziz
+
 - GitHub: [@wassimOubaziz](https://github.com/wassimOubaziz)
 - LinkedIn: [wassim-oubaziz](https://www.linkedin.com/in/wassim-oubaziz/)
 
