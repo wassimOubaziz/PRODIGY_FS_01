@@ -129,7 +129,9 @@ src/
 
 3. **Protected Routes**: Certain routes (e.g., dashboard) are protected and can only be accessed by authenticated users. The JWT token is used to verify the user's identity.
 
-   ![mongodb](videos/protected.mp4)
+https://github.com/user-attachments/assets/3d9230f4-bfe6-4306-b150-c7a8cf09ca93
+
+
 
 4. **Logout**: Users can log out, which removes the JWT token from local storage and redirects them to the login page.
 
